@@ -1,0 +1,286 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+span,
+small {
+	font-family: "Adobe 黑体 Std";
+}
+
+/* 设置背景颜色于宽高为屏幕宽高 */
+body {
+	background-color: #e9f6ff;
+	width: 100%;
+	height: 100%;
+}
+
+/* 取消下划线 */
+
+
+.header span {
+	width: 100%;
+	height: 0.125rem;
+	background-color: #535353;
+	margin: 10px 0px;
+	display: block;
+}
+
+/*页体*/
+.bodyer_box {
+	width: auto;
+	min-height: 30rem;
+	margin: 0rem auto;
+	border-radius: 1.25rem;
+	padding: 1rem 1rem;
+	background-color: #FFFFFF;
+}
+
+.bodyer_box_1 {
+	border-radius: 1.25rem;
+	background-color: #E7E7E7;
+}
+
+.form_box {
+	text-align: center;
+}
+
+.form_seach {
+	margin: 1rem auto;
+	width: 90%;
+}
+
+.seach_table {
+	text-align: center;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+#tablaboax {
+	width: 90%;
+	height: 100%;
+	background-color: white;
+}
+
+/* 新闻导航栏 */
+.navbar_menu_1 {
+	width: 90%;
+	height: auto;
+	margin: 3.125rem auto;
+}
+
+.navbar_menu_1 ul {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	display: flex;
+	align-items: inherit;
+	padding: 0;
+	border-radius: 10px;
+}
+
+.navbar_menu_1 ul li {
+	list-style: none;
+	width: 48%;
+	height: 100%;
+	margin: 0.3125rem auto;
+	text-align: center;
+}
+
+.navbar_menu_1 ul li .btn {
+	width: 100%;
+	height: 100%;
+	margin: 0.3125rem auto;
+	text-align: center;
+	border-radius: 10px;
+}
+
+. .navbar_menu_1 ul li:hover {
+	background-color: rgba(255, 255, 255, .1);
+	border-radius: 15px;
+	/* //圆角 */
+}
+
+.navbar_menu_1 ul li a {
+	height: 100%;
+	color: #FFFFFF;
+	font-size: 20px;
+}
+
+@media screen and (max-width:29.375rem) {
+	.navbar_menu_1 li a {
+		font-size: 1.5rem;
+		font-weight: 700;
+	}
+}
+
+.navbar_menu_1 a:hover,
+.navbar_menu_1 a:active,
+.navbar_menu_1 a:visited,
+.navbar_menu_1 a:link {
+	text-decoration: none;
+}
+
+/*页脚*/
+.footer-agile {
+	padding: 4em 0;
+	background-image: url("../img/fbg.png");
+	background-repeat: no-repeat;
+}
+
+.footer-grid h3 {
+	font-size: 1.9em;
+	color: #FFFFFF;
+	margin-bottom: 1em;
+	font-family: 'Merriweather', serif;
+}
+
+@media (max-width: 991px) {
+	.footer-grid h3 {
+		font-size: 1.7em;
+	}
+}
+
+.footer_form ul,
+.footer-agile label {
+	margin: 0;
+	padding: 0;
+}
+
+.footer-grid li {
+	color: #fff;
+	display: block;
+	margin: 1.2em 0 0;
+	font-size: 1em;
+	letter-spacing: 1px;
+}
+
+@media (max-width: 414px) and (min-width: 360px) {
+	.footer-grid li {
+		font-size: 1.2vmax;
+	}
+
+	.footer-grid p {
+		font-size: 1rem;
+	}
+}
+
+.footer-grid li a {
+	color: #fff;
+}
+
+.footer-grid li a:hover {
+	color: #ff6b6b;
+}
+
+.footer-grid li i {
+	margin-right: 1em;
+	font-size: .9em;
+}
+
+.footer-grid p {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+.footer-grid p.w3l-para-mk {
+	margin-top: 1.5em;
+}
+
+.footer-agile form {
+	margin-top: 30px;
+	background: #fff;
+	padding: 6px 10px;
+	position: relative;
+	border-radius: 50px;
+}
+
+.footer-agile form input {
+	overflow: visible;
+}
+
+.footer-agile form input[type="email"] {
+	border: none;
+	padding: 4px;
+	width: calc(98% - 100px);
+}
+
+.footer-agile form input[type="submit"] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	border: 0;
+	background: none;
+	font-size: 1.8rem;
+	padding: 0 20px;
+	margin: 3px;
+	background: #68A4C4;
+	color: #fff;
+	transition: 0.3s;
+	border-radius: 50px;
+	max-width: 90%;
+}
+
+
+.cd-top {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	position: fixed;
+	bottom: 40px;
+	right: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
+	background: rgba(232, 98, 86, 0.8) url(../img/cd-top-arrow.svg) no-repeat center 50%;
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.cd-top.cd-is-visible {
+	visibility: visible;
+	opacity: 1;
+}
+
+.cd-top.cd-fade-out {
+	opacity: .5;
+}
+
+.no-touch .cd-top:hover {
+	background-color: #e86256;
+	opacity: 1;
+}
+
+@media only screen and (min-width: 768px) {
+	.cd-top {
+		right: 20px;
+		bottom: 20px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.cd-top {
+		height: 60px;
+		width: 60px;
+		right: 30px;
+		bottom: 30px;
+	}
+}

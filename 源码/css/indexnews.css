@@ -1,0 +1,46 @@
+
+.news_box {
+	width: 90%;
+	margin: 20px auto;
+	border: #ADADAD solid 1px;
+	box-shadow: 1px 1px 5px  #777777; 
+	background-color:#e9f6ff;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+.news_box h2{
+	font-size: 1.6rem;
+	font-weight: bold;
+	text-align: center;
+}
+.news_box ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.news_box ul li{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: #EBEBEB solid 1px;
+	
+}
+.news_box ul li a{
+	text-decoration: none;
+	font-size: 2rem;
+	color: #000;
+}
+.news_box ul li span{
+	padding-left: 50px;
+	padding-right: 10px;
+	font-weight: bold;
+	color: dodgerblue;
+}
+.news_box ul li:nth-child(1) span{
+	color: brown;
+}
+.news_box ul li:nth-child(2) span{
+	color: orangered;
+}
+.news_box ul li:nth-child(3) span{
+	color:orange;
+}

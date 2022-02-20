@@ -1,0 +1,1346 @@
+.btn-area-share-box[data-v-63878a48] {
+	height: 2.93333rem
+}
+
+.btn-area-share[data-v-63878a48] {
+	position: fixed;
+	left: .66667rem;
+	right: .66667rem;
+	transform: translateZ(0);
+	bottom: .66667rem;
+	display: flex;
+	height: 1.17333rem;
+	line-height: 1.17333rem;
+	font-size: .37333rem;
+	text-align: center;
+	z-index: 999
+}
+
+.btn-area-share .btn-share[data-v-63878a48] {
+	width: 3.06667rem;
+	height: 100%;
+	background-image: linear-gradient(132deg, #2f9dff 30%, #176fff);
+	box-shadow: 0 .13333rem .4rem 0 rgba(53, 73, 146, .5);
+	border-radius: 1.33333rem;
+	color: #fff;
+	font-weight: 700;
+	box-sizing: border-box;
+	position: relative
+}
+
+.btn-area-share .btn-share[data-v-63878a48]:before {
+	content: "";
+	width: .72rem;
+	height: .72rem;
+	display: inline-block;
+	background: url(https://static.wecity.qq.com/wapdisease/ico-disease-share-ceaf9bc5766d217d80980aee41f3c69c.png);
+	background-size: 100% 100%;
+	vertical-align: middle;
+	margin: -.08rem .13333rem 0 -.08rem
+}
+
+.btn-area-share .btn-share svg[data-v-63878a48] {
+	display: none
+}
+
+.btn-area-share .btn-share[data-v-63878a48]:only-child {
+	width: 100%;
+	margin: 0 .4rem
+}
+
+.btn-area-share .btn-share+.btn-subscription[data-v-63878a48] {
+	margin-left: .13333rem
+}
+
+.btn-area-share .btn-cancel[data-v-63878a48],
+.btn-area-share .btn-cancle-subscription[data-v-63878a48],
+.btn-area-share .btn-share-normal[data-v-63878a48],
+.btn-area-share .btn-subscription[data-v-63878a48] {
+	width: 100%;
+	height: 100%;
+	flex: 1;
+	background-image: linear-gradient(90deg, #ffa513, #ff5a1c);
+	box-shadow: 0 .13333rem .4rem 0 rgba(255, 80, 0, .4);
+	border-radius: 1.33333rem;
+	color: #fff;
+	font-weight: 700;
+	box-sizing: border-box;
+	padding: 0 .32rem 0 .32rem;
+	text-align: center;
+	position: relative
+}
+
+.btn-area-share .btn-cancel .btn-subscription-inner[data-v-63878a48],
+.btn-area-share .btn-cancle-subscription .btn-subscription-inner[data-v-63878a48],
+.btn-area-share .btn-share-normal .btn-subscription-inner[data-v-63878a48],
+.btn-area-share .btn-subscription .btn-subscription-inner[data-v-63878a48] {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	padding-left: .85333rem;
+	height: 100%;
+	position: relative
+}
+
+.btn-area-share .btn-cancel[data-v-63878a48]:only-child,
+.btn-area-share .btn-cancle-subscription[data-v-63878a48]:only-child,
+.btn-area-share .btn-share-normal[data-v-63878a48]:only-child,
+.btn-area-share .btn-subscription[data-v-63878a48]:only-child {
+	width: 100%;
+	margin: 0 .4rem
+}
+
+.btn-area-share .btn-subscription-txt[data-v-63878a48] {
+	font-weight: 500;
+	height: .48rem;
+	line-height: .48rem;
+	margin-top: .18667rem;
+	font-size: .37333rem;
+	white-space: nowrap
+}
+
+.btn-area-share .btn-subscription-txt[data-v-63878a48]:before {
+	content: "";
+	width: .72rem;
+	height: .72rem;
+	display: inline-block;
+	background: url(https://static.wecity.qq.com/wapdisease/ico-disease-book-c1ba9feee77564b8046b3cefe2e5f581.png);
+	background-size: 100% 100%;
+	vertical-align: middle;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -.4rem
+}
+
+.btn-area-share .btn-subscription-txt[data-v-63878a48]:only-child {
+	padding: 0;
+	margin: 0;
+	height: 1.17333rem;
+	line-height: 1.17333rem
+}
+
+.btn-area-share .btn-subscription-tips[data-v-63878a48] {
+	height: .32rem;
+	line-height: .32rem;
+	overflow: hidden;
+	font-size: .24rem;
+	padding-left: .02667rem
+}
+
+.btn-area-share .btn-cancel .btn-subscription-inner[data-v-63878a48],
+.btn-area-share .btn-share-normal .btn-subscription-inner[data-v-63878a48] {
+	padding: 0
+}
+
+.btn-area-share .btn-cancel .btn-subscription-txt[data-v-63878a48]:before,
+.btn-area-share .btn-share-normal .btn-subscription-txt[data-v-63878a48]:before {
+	display: none
+}
+
+div.popup[data-v-63878a48] {
+	bottom: 2.13333rem
+}
+
+@media screen and (max-width:320px) {
+	.btn-area-share[data-v-63878a48] {
+		bottom: .4rem
+	}
+}
+
+.nearby-selector-wrap[data-v-67e87670] {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 14rem
+}
+
+.nearby-selector-wrap .selector-box[data-v-67e87670] {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 14rem;
+	box-sizing: border-box;
+	background: #fff;
+	border-radius: .26667rem .26667rem 0 0;
+	padding: 0 .53333rem;
+	transition: all .3s
+}
+
+.nearby-selector-wrap .selector-box.close[data-v-67e87670] {
+	transform: translateY(100%) !important
+}
+
+.nearby-selector-wrap .selector-header[data-v-67e87670] {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: .4rem
+}
+
+.nearby-selector-wrap .selector-header .title[data-v-67e87670] {
+	font-size: .45333rem;
+	font-weight: 700
+}
+
+.nearby-selector-wrap .selector-header .btn-close[data-v-67e87670] {
+	width: .32rem;
+	height: .32rem;
+	background: url(https://static.wecity.qq.com/wapdisease/btn-close-2020-02-10-1b83ed89381292dd7c6e0c19ba2a786b.png) no-repeat;
+	background-size: contain
+}
+
+.nearby-selector-wrap .selector-header .btn-close[data-v-67e87670]:active {
+	opacity: .5
+}
+
+.nearby-selector-wrap .selector-tab[data-v-67e87670] {
+	display: flex;
+	padding-top: .53333rem;
+	padding-bottom: .8rem
+}
+
+.nearby-selector-wrap .selector-tab .btn-tab-item[data-v-67e87670] {
+	font-size: .4rem;
+	font-weight: 700;
+	display: flex;
+	align-items: center;
+	margin-right: .69333rem;
+	min-height: .42667rem;
+	position: relative;
+	z-index: 2000
+}
+
+.nearby-selector-wrap .selector-tab .btn-tab-item span[data-v-67e87670] {
+	max-width: 2.45333rem;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	display: block;
+	line-height: .53333rem;
+	min-height: .53333rem
+}
+
+.nearby-selector-wrap .selector-tab .btn-tab-item.unable[data-v-67e87670] {
+	color: #cacaca
+}
+
+.nearby-selector-wrap .selector-tab .btn-tab-item[data-v-67e87670]:not(:last-child):after {
+	content: "";
+	display: flex;
+	width: .16rem;
+	height: .21333rem;
+	background: url(https://static.wecity.qq.com/wapdisease/arrow-right-2020-02-10-1eccc1a764dc91362ea710810c82c79f.png) no-repeat;
+	background-size: contain;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: -.42667rem
+}
+
+.nearby-selector-wrap .selector-tab .btn-tab-item.active[data-v-67e87670] {
+	color: #5675f1
+}
+
+.nearby-selector-wrap .selector-tab .btn-tab-item.active[data-v-67e87670]:before {
+	content: "";
+	display: block;
+	width: .64rem;
+	height: .08rem;
+	border-radius: .04rem;
+	background: #5675f1;
+	position: absolute;
+	bottom: -.18667rem;
+	left: 50%;
+	transform: translateX(-50%)
+}
+
+.nearby-selector-wrap .select-tip-wrap[data-v-67e87670] {
+	padding-top: .53333rem;
+	color: #888
+}
+
+.nearby-selector-wrap .selector-content[data-v-67e87670] {
+	margin-right: -.26667rem;
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: .45333rem;
+	max-height: 10.53333rem;
+	box-sizing: border-box;
+	overflow-y: scroll
+}
+
+.nearby-selector-wrap .selector-content[data-v-67e87670]::-webkit-scrollbar {
+	display: none
+}
+
+.nearby-selector-wrap .selector-content .col[data-v-67e87670] {
+	width: 100%
+}
+
+.nearby-selector-wrap .selector-content .col .place[data-v-67e87670] {
+	width: 3.2rem
+}
+
+.nearby-selector-wrap .selector-content .place[data-v-67e87670] {
+	padding: 0 .4rem;
+	min-width: 2.02667rem;
+	box-sizing: border-box;
+	height: 1.17333rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: nowrap;
+	background: #f5f5f5;
+	border-radius: .16rem;
+	font-size: .4rem;
+	margin-right: .26667rem;
+	margin-bottom: .26667rem
+}
+
+.nearby-selector-wrap .selector-content .place.active[data-v-67e87670] {
+	background: rgba(44, 82, 238, .8);
+	color: #fff;
+	font-weight: 700
+}
+
+@media only screen and (device-width:375px)and (device-height:812px)and (-webkit-device-pixel-ratio:3) {
+
+	.nearby-selector-wrap .selector-box[data-v-67e87670],
+	.nearby-selector-wrap[data-v-67e87670] {
+		height: 14.4rem
+	}
+}
+
+@media only screen and (device-width:414px)and (device-height:896px)and (-webkit-device-pixel-ratio:3) {
+
+	.nearby-selector-wrap .selector-box[data-v-67e87670],
+	.nearby-selector-wrap[data-v-67e87670] {
+		height: 14.4rem
+	}
+}
+
+@media only screen and (device-width:414px)and (device-height:896px)and (-webkit-device-pixel-ratio:2) {
+
+	.nearby-selector-wrap .selector-box[data-v-67e87670],
+	.nearby-selector-wrap[data-v-67e87670] {
+		height: 14.4rem
+	}
+}
+
+.btn-area-share-box[data-v-12a33660] {
+	height: 2.93333rem
+}
+
+.btn-area-share[data-v-12a33660] {
+	position: fixed;
+	left: .66667rem;
+	right: .66667rem;
+	transform: translateZ(0);
+	bottom: .66667rem;
+	display: flex;
+	height: 1.17333rem;
+	line-height: 1.17333rem;
+	font-size: .37333rem;
+	text-align: center;
+	z-index: 999
+}
+
+.btn-area-share .btn-share[data-v-12a33660] {
+	width: 3.06667rem;
+	height: 100%;
+	background-image: linear-gradient(132deg, #2f9dff 30%, #176fff);
+	box-shadow: 0 .13333rem .4rem 0 rgba(53, 73, 146, .5);
+	border-radius: 1.33333rem;
+	color: #fff;
+	font-weight: 700;
+	box-sizing: border-box;
+	position: relative
+}
+
+.btn-area-share .btn-share[data-v-12a33660]:before {
+	content: "";
+	width: .72rem;
+	height: .72rem;
+	display: inline-block;
+	background: url(https://static.wecity.qq.com/wapdisease/ico-disease-share-ceaf9bc5766d217d80980aee41f3c69c.png);
+	background-size: 100% 100%;
+	vertical-align: middle;
+	margin: -.08rem .13333rem 0 -.08rem
+}
+
+.btn-area-share .btn-share svg[data-v-12a33660] {
+	display: none
+}
+
+.btn-area-share .btn-share[data-v-12a33660]:only-child {
+	width: 100%;
+	margin: 0 .4rem
+}
+
+.btn-area-share .btn-share+.btn-subscription[data-v-12a33660] {
+	margin-left: .13333rem
+}
+
+.btn-area-share .btn-cancel[data-v-12a33660],
+.btn-area-share .btn-cancle-subscription[data-v-12a33660],
+.btn-area-share .btn-share-normal[data-v-12a33660],
+.btn-area-share .btn-subscription[data-v-12a33660] {
+	width: 100%;
+	height: 100%;
+	flex: 1;
+	background-image: linear-gradient(90deg, #ffa513, #ff5a1c);
+	box-shadow: 0 .13333rem .4rem 0 rgba(255, 80, 0, .4);
+	border-radius: 1.33333rem;
+	color: #fff;
+	font-weight: 700;
+	box-sizing: border-box;
+	padding: 0 .32rem 0 .32rem;
+	text-align: center;
+	position: relative
+}
+
+.btn-area-share .btn-cancel .btn-subscription-inner[data-v-12a33660],
+.btn-area-share .btn-cancle-subscription .btn-subscription-inner[data-v-12a33660],
+.btn-area-share .btn-share-normal .btn-subscription-inner[data-v-12a33660],
+.btn-area-share .btn-subscription .btn-subscription-inner[data-v-12a33660] {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	padding-left: .85333rem;
+	height: 100%;
+	position: relative
+}
+
+.btn-area-share .btn-cancel[data-v-12a33660]:only-child,
+.btn-area-share .btn-cancle-subscription[data-v-12a33660]:only-child,
+.btn-area-share .btn-share-normal[data-v-12a33660]:only-child,
+.btn-area-share .btn-subscription[data-v-12a33660]:only-child {
+	width: 100%;
+	margin: 0 .4rem
+}
+
+.btn-area-share .btn-subscription-txt[data-v-12a33660] {
+	font-weight: 500;
+	height: .48rem;
+	line-height: .48rem;
+	margin-top: .18667rem;
+	font-size: .37333rem;
+	white-space: nowrap
+}
+
+.btn-area-share .btn-subscription-txt[data-v-12a33660]:before {
+	content: "";
+	width: .72rem;
+	height: .72rem;
+	display: inline-block;
+	background: url(https://static.wecity.qq.com/wapdisease/ico-disease-book-c1ba9feee77564b8046b3cefe2e5f581.png);
+	background-size: 100% 100%;
+	vertical-align: middle;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	margin-top: -.4rem
+}
+
+.btn-area-share .btn-subscription-txt[data-v-12a33660]:only-child {
+	padding: 0;
+	margin: 0;
+	height: 1.17333rem;
+	line-height: 1.17333rem
+}
+
+.btn-area-share .btn-subscription-tips[data-v-12a33660] {
+	height: .32rem;
+	line-height: .32rem;
+	overflow: hidden;
+	font-size: .24rem;
+	padding-left: .02667rem
+}
+
+.btn-area-share .btn-cancel .btn-subscription-inner[data-v-12a33660],
+.btn-area-share .btn-share-normal .btn-subscription-inner[data-v-12a33660] {
+	padding: 0
+}
+
+.btn-area-share .btn-cancel .btn-subscription-txt[data-v-12a33660]:before,
+.btn-area-share .btn-share-normal .btn-subscription-txt[data-v-12a33660]:before {
+	display: none
+}
+
+div.popup[data-v-12a33660] {
+	bottom: 2.13333rem
+}
+
+@media screen and (max-width:320px) {
+	.btn-area-share[data-v-12a33660] {
+		bottom: .4rem
+	}
+}
+
+.gudie-mask[data-v-12a33660] {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, .6);
+	z-index: 1000
+}
+
+.gudie-mask .txt[data-v-12a33660] {
+	position: absolute;
+	top: 1.86667rem;
+	right: 1.06667rem;
+	color: #fff;
+	font-size: .48rem
+}
+
+.gudie-mask .arrow[data-v-12a33660] {
+	width: .90667rem;
+	height: 1.14667rem;
+	background: url(https://s.beta.gtimg.com/hospital_img/plus-lib/mysscard-mini/assets/img/group-new-year/card-page/arrow.png) no-repeat;
+	background-size: contain;
+	transform: scaleX(-1) rotate(180deg);
+	position: absolute;
+	top: .26667rem;
+	right: 1.46667rem
+}
+
+.dropdown-wrap[data-v-12a33660] {
+	position: relative;
+	color: #888;
+	background-color: #fff;
+	height: 1.17333rem
+}
+
+.dropdown-wrap .icon-arrow-down-h5[data-v-12a33660] {
+	display: inline-block;
+	width: .24rem;
+	height: .24rem;
+	background: url(https://static.wecity.qq.com/wap/icon-trg-a0dacb6f6b23d299fdb0a8694c815b13.png) no-repeat;
+	background-size: contain;
+	flex-shrink: 0
+}
+
+.dropdown-wrap .dropdown-tab[data-v-12a33660] {
+	height: 1.28rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #f9f9f9;
+	z-index: 80
+}
+
+.dropdown-wrap .dropdown-tab[data-v-12a33660]:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-bottom: .02667rem solid #dfdfdf;
+	transform: scaleY(.5);
+	transform-origin: center bottom
+}
+
+.dropdown-wrap .dropdown-tab .tab[data-v-12a33660] {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: .37333rem;
+	line-height: .53333rem;
+	width: 50%;
+	position: relative
+}
+
+.dropdown-wrap .dropdown-tab .tab .txt[data-v-12a33660] {
+	color: #000;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 80%;
+	font-size: .37333rem;
+	font-weight: 500
+}
+
+.dropdown-wrap .dropdown-tab .tab .icon-arrow-down-h5[data-v-12a33660] {
+	margin-left: .13333rem
+}
+
+.dropdown-wrap .dropdown-tab .tab.selected .txt[data-v-12a33660] {
+	color: #00bdd4
+}
+
+.dropdown-wrap .dropdown-tab .tab.selected .icon-arrow-down-h5[data-v-12a33660] {
+	border-top-color: #00bdd4
+}
+
+.dropdown-wrap .dropdown-tab .tab[data-v-12a33660]:first-child:after {
+	content: "";
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	height: .90667rem;
+	border-right: .02667rem solid #dfdfdf;
+	transform: scaleX(.5) translateY(-50%);
+	z-index: 10
+}
+
+.dropdown-wrap .dropdown-list[data-v-12a33660] {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 1.17333rem;
+	background-color: #fff;
+	color: #000;
+	z-index: 70;
+	box-shadow: .02667rem .02667rem .13333rem rgba(0, 0, 0, .13)
+}
+
+.dropdown-wrap .dropdown-list .dropdown-item[data-v-12a33660] {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 1.28rem;
+	padding-left: .4rem;
+	font-size: .37333rem
+}
+
+.dropdown-wrap .dropdown-list .dropdown-item.selected .txt[data-v-12a33660] {
+	color: #00bdd4
+}
+
+.dropdown-wrap .dropdown-list .dropdown-item.selected[data-v-12a33660]:after {
+	content: "";
+	display: block;
+	width: .42667rem;
+	height: .42667rem;
+	background: url(https://static.wecity.qq.com/wap/duigou-b89a8d502eaefb8e660409e883acb4e0.png) no-repeat;
+	background-size: contain;
+	position: absolute;
+	right: .42667rem;
+	top: 50%;
+	transform: translateY(-50%)
+}
+
+.dropdown-wrap .dropdown-list .dropdown-item[data-v-12a33660]:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-bottom: .02667rem solid #dfdfdf;
+	transform: scaleY(.5);
+	transform-origin: center bottom;
+	left: .21333rem;
+	right: .21333rem
+}
+
+.dropdown-wrap .dropdown-mask[data-v-12a33660] {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .5);
+	z-index: 998
+}
+
+img[data-v-12a33660] {
+	width: 100%;
+	height: 100%
+}
+
+.icon-search[data-v-12a33660] {
+	display: inline-block;
+	height: .61333rem;
+	width: .61333rem
+}
+
+input[data-v-12a33660] {
+	outline: none
+}
+
+.icon-search-close[data-v-12a33660] {
+	position: relative;
+	display: inline-block;
+	width: .4rem;
+	height: .4rem;
+	background-color: #b2b2b2;
+	border-radius: 50%
+}
+
+.icon-search-close[data-v-12a33660]:before {
+	transform: translate3d(0, -.18667rem, 0) rotate(45deg)
+}
+
+.icon-search-close[data-v-12a33660]:after,
+.icon-search-close[data-v-12a33660]:before {
+	content: "";
+	position: absolute;
+	left: .08rem;
+	bottom: 0;
+	right: .08rem;
+	border-bottom: .02667rem solid #fff
+}
+
+.icon-search-close[data-v-12a33660]:after {
+	transform: rotate(-45deg);
+	transform: translate3d(0, -.18667rem, 0) rotate(-45deg)
+}
+
+.container[data-v-12a33660] {
+	background-color: #fff;
+	line-height: 1;
+	font-family: -apple-system-font, Helvetica Neue, sans-serif;
+	padding: 0 0 2.66667rem 0
+}
+
+.search-wrapper[data-v-12a33660] {
+	display: flex;
+	align-items: center;
+	z-index: 100;
+	background-color: #fff;
+	font-size: 0
+}
+
+.search-wrapper.fixed[data-v-12a33660] {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0
+}
+
+.search-wrapper.fixed[data-v-12a33660]:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-bottom: .02667rem solid #dfdfdf;
+	transform: scaleY(.5)
+}
+
+.search-wrapper .search-bar[data-v-12a33660] {
+	flex: 1;
+	height: .93333rem;
+	background-color: #f7f7f7;
+	border-radius: .8rem;
+	display: flex;
+	align-items: center;
+	margin: .26667rem 0 .26667rem .4rem
+}
+
+.search-wrapper .search-bar[data-v-12a33660]:last-child {
+	margin: .26667rem .53333rem .26667rem .4rem
+}
+
+.search-wrapper .search-bar .icon-search[data-v-12a33660] {
+	padding-left: .21333rem
+}
+
+.search-wrapper .search-bar .search-input[data-v-12a33660] {
+	flex: 1;
+	background-color: transparent;
+	height: 100%;
+	padding-right: .32rem;
+	font-size: .37333rem;
+	color: #000;
+	caret-color: #000 !important
+}
+
+.search-wrapper .search-bar .icon-search-close[data-v-12a33660] {
+	margin-right: .26667rem
+}
+
+.search-wrapper .cancel-btn[data-v-12a33660] {
+	font-size: .37333rem;
+	padding: .21333rem .4rem .18667rem .26667rem;
+	color: #888
+}
+
+.search-select-wrap.fixed[data-v-12a33660] {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100
+}
+
+.hospital-list[data-v-12a33660] {
+	padding: 0 .4rem;
+	position: relative
+}
+
+.hospital-list .hospital-item[data-v-12a33660] {
+	position: relative;
+	display: flex;
+	padding: .42667rem 0
+}
+
+.hospital-list .hospital-item .num-box[data-v-12a33660] {
+	width: .53333rem;
+	height: .53333rem;
+	border-radius: 50%;
+	color: #888;
+	text-align: center;
+	line-height: .56rem;
+	background-color: #f5f5f5;
+	margin-right: .32rem;
+	font-size: .34667rem
+}
+
+.hospital-list .hospital-item .desc-box[data-v-12a33660] {
+	flex: 1;
+	width: 100%;
+	overflow: hidden
+}
+
+.hospital-list .hospital-item .desc-box .title-box[data-v-12a33660] {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-bottom: .32rem
+}
+
+.hospital-list .hospital-item .desc-box .title-box .title[data-v-12a33660] {
+	font-size: .42667rem;
+	line-height: .53333rem;
+	margin-right: .16rem;
+	height: .53333rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}
+
+.hospital-list .hospital-item .desc-box .title-box .tag[data-v-12a33660] {
+	border: .02667rem solid green;
+	color: green;
+	display: inline-block;
+	padding: .05333rem .13333rem;
+	border-radius: .08rem
+}
+
+.hospital-list .hospital-item .desc-box .address[data-v-12a33660] {
+	font-size: .37333rem;
+	color: #858585
+}
+
+.hospital-list .hospital-item .position-box[data-v-12a33660] {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	flex-direction: column
+}
+
+.hospital-list .hospital-item .position-box .icon-box[data-v-12a33660] {
+	width: .8rem;
+	height: .8rem;
+	margin-bottom: .21333rem
+}
+
+.hospital-list .hospital-item .position-box .distance[data-v-12a33660] {
+	color: #858585;
+	font-size: .34667rem
+}
+
+.hospital-list .hospital-item[data-v-12a33660]:before {
+	content: "";
+	position: absolute;
+	left: .85333rem;
+	right: -.4rem;
+	bottom: 0;
+	border-bottom: .02667rem solid #dfdfdf;
+	transform: scaleY(.5)
+}
+
+.hospital-list .hospital-item[data-v-12a33660]:last-child:before {
+	display: none
+}
+
+.popup[data-v-12a33660] {
+	position: fixed;
+	right: .53333rem;
+	bottom: 2.93333rem;
+	height: 1.86667rem;
+	width: 1.86667rem;
+	box-shadow: 0 0 .13333rem #dfdfdf;
+	border-radius: 50%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: .32rem;
+	background-color: #fff
+}
+
+.popup .icon-address[data-v-12a33660] {
+	display: inline-block;
+	width: .8rem;
+	height: .8rem;
+	margin-bottom: .13333rem
+}
+
+.popup-feedback[data-v-12a33660] {
+	position: fixed;
+	left: 0;
+	bottom: 2.93333rem;
+	width: 1.92rem;
+	height: 1.06667rem;
+	line-height: 1.06667rem;
+	text-align: center;
+	color: #000;
+	background: #ffd34f;
+	border-radius: 0 2.66667rem 2.66667rem 0;
+	font-size: .42667rem
+}
+
+.popup-feedback.scroll[data-v-12a33660] {
+	opacity: .4
+}
+
+.empty-wrapper[data-v-12a33660] {
+	position: absolute;
+	left: 0;
+	top: 1.33333rem;
+	right: 0;
+	bottom: 0;
+	background-color: #f7f7f7;
+	font-size: .42667rem;
+	color: #b2b2b2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column
+}
+
+.empty-wrapper img[data-v-12a33660] {
+	width: auto;
+	height: auto;
+	margin-bottom: .53333rem
+}
+
+.status-tips[data-v-12a33660] {
+	margin: .32rem 0 0 0
+}
+
+.status-tips-inner[data-v-12a33660] {
+	font-size: .32rem;
+	border-radius: 10.66667rem;
+	background: #f7f7f7;
+	padding: .08rem .21333rem;
+	display: inline-block
+}
+
+.status-tips--hight[data-v-12a33660] {
+	color: #ff1542
+}
+
+.status-tips--middle[data-v-12a33660] {
+	color: #ffa60c
+}
+
+.tag-box[data-v-12a33660] {
+	margin-bottom: .13333rem
+}
+
+.tag-box .tag[data-v-12a33660] {
+	display: inline-block;
+	padding: .08rem .16rem;
+	background-color: #fb8788;
+	border-radius: .08rem;
+	color: #fff;
+	margin-bottom: .13333rem;
+	font-size: .32rem;
+	margin-right: .13333rem
+}
+
+.tag-box .tag.gray[data-v-12a33660],
+.tag-box .tag.tag-default[data-v-12a33660] {
+	background-color: #f7f7f7;
+	color: rgba(0, 0, 0, .4)
+}
+
+.tag-box .tag.tag-warning[data-v-12a33660] {
+	background-color: #ffb34e;
+	color: #fff
+}
+
+.tag-box .tag.tag-success[data-v-12a33660] {
+	background-color: #21c4d4;
+	color: #fff
+}
+
+.tag-box .tag.tag-error[data-v-12a33660] {
+	background-color: #ff9896;
+	color: #fff
+}
+
+.tag-box .tag.tag-sentinel[data-v-12a33660] {
+	background-color: #35c5ff;
+	color: #fff
+}
+
+.tag-box .tag.tag-nucleate[data-v-12a33660] {
+	background-color: #21daa6;
+	color: #fff
+}
+
+.footbar-btn-full[data-v-12a33660] {
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	display: -webkit-box
+}
+
+.footbar-btn-full .footbar-btn[data-v-12a33660] {
+	flex: 1;
+	width: 50%;
+	height: 1.33333rem;
+	display: block;
+	background-color: #00bad1;
+	text-align: center;
+	font-size: .42667rem;
+	color: #fff;
+	line-height: 1.33333rem;
+	z-index: 999;
+	padding-bottom: calc(constant(safe-area-inset-bottom) - .21333rem);
+	padding-bottom: calc(env(safe-area-inset-bottom) - .21333rem)
+}
+
+.footbar-btn-full .footbar-btn[data-v-12a33660]:only-child {
+	width: 100%
+}
+
+.footbar-btn-full .btn--default[data-v-12a33660] {
+	background: #fff;
+	color: #000
+}
+
+.footbar-btn-full .btn--default[data-v-12a33660]:only-child {
+	background-color: #00bad1;
+	color: #fff
+}
+
+.hospital-notice[data-v-12a33660] {
+	margin: .26667rem .4rem .16rem .4rem;
+	position: relative
+}
+
+.hospital-notice-banner[data-v-12a33660] {
+	padding: .48rem 0 0 .48rem;
+	border-radius: .13333rem .13333rem 0 0;
+	background: url(../images/yiliyiliyi.jpg);
+	background-size: 100% 100%;
+	background-position: 50% 50%;
+	overflow: hidden;
+	box-sizing: border-box;
+	color: #fff
+}
+
+.hospital-notice-tit[data-v-12a33660] {
+	padding-bottom: .21333rem
+}
+
+.hospital-notice-subtit[data-v-12a33660],
+.hospital-notice-tit[data-v-12a33660] {
+	font-size: .53333rem;
+	font-weight: 700;
+	text-shadow: 0 .02667rem .10667rem rgba(0, 0, 0, .3)
+}
+
+.hospital-notice-subtit[data-v-12a33660] {
+	padding-bottom: .26667rem
+}
+
+.hospital-notice-subtit[data-v-12a33660]:first-child {
+	padding: .26667rem 0 .4rem 0;
+	font-size: .48rem
+}
+
+.hospital-notice-subtit:first-child+.hospital-notice-tips[data-v-12a33660] {
+	padding-bottom: .66667rem
+}
+
+.hospital-notice-subtit:first-child+.hospital-notice-tips+.hospital-info-icon[data-v-12a33660] {
+	right: .4rem;
+	top: .66667rem
+}
+
+.hospital-notice-tips[data-v-12a33660] {
+	font-size: .26667rem;
+	padding-bottom: .32rem
+}
+
+.header-tag__wrap[data-v-12a33660] {
+	margin-left: -.29333rem;
+	padding: 0 .18667rem .32rem 0;
+	text-align: center;
+	white-space: nowrap
+}
+
+.header-tag__wrap .header-tag[data-v-12a33660] {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	font-size: .24rem;
+	font-weight: 500;
+	color: #fff
+}
+
+.header-tag__wrap .header-tag[data-v-12a33660]:not(:first-child) {
+	margin-left: .05333rem;
+	padding-left: .10667rem
+}
+
+.header-tag__wrap .header-tag[data-v-12a33660]:not(:first-child):after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 50%;
+	height: .24rem;
+	width: .02667rem;
+	background-color: #fff;
+	transform-origin: center center;
+	transform: translate(-50%, -50%) scaleX(.5)
+}
+
+.header-tag__wrap .tag-icon[data-v-12a33660] {
+	margin-bottom: .08rem;
+	width: .37333rem;
+	height: .37333rem;
+	vertical-align: middle
+}
+
+.hospital-notice-enter[data-v-12a33660] {
+	background: #fffbd7;
+	font-size: .34667rem;
+	padding: .4rem 0 .4rem .53333rem;
+	border-radius: 0 0 .13333rem .13333rem;
+	position: relative
+}
+
+.hospital-info-icon[data-v-12a33660] {
+	width: .61333rem;
+	height: .61333rem;
+	background: url(https://static.wecity.qq.com/wapdisease/hp-ico-detail-a39452585e2abdc5a4d07555cf526958.png);
+	background-size: 100% 100%;
+	position: absolute;
+	right: .42667rem;
+	top: .42667rem
+}
+
+.hospital-tips-icon[data-v-12a33660] {
+	width: .32rem;
+	height: .32rem;
+	background: url(https://static.wecity.qq.com/wapdisease/hp-ico-enter-4a16704728e619320f374178b6d87361.png);
+	background-size: 100% 100%;
+	position: absolute;
+	right: .42667rem;
+	top: 50%;
+	margin-top: -.18667rem
+}
+
+.search-wrapper.fixed[data-v-12a33660] {
+	z-index: 200
+}
+
+.container--beijin[data-v-12a33660] {
+	padding-bottom: .26667rem
+}
+
+.container--beijin .btn-area-share[data-v-12a33660],
+.container--beijin .hospital-info-icon[data-v-12a33660],
+.container--beijin .hospital-notice-enter[data-v-12a33660],
+.container--beijin .hospital-notice-tips[data-v-12a33660],
+.container--beijin .popup-feedback[data-v-12a33660] {
+	display: none
+}
+
+.container--beijin .hospital-notice-banner[data-v-12a33660] {
+	padding: .48rem 0 .21333rem .48rem;
+	border-radius: .13333rem
+}
+
+.container--beijin .popup[data-v-12a33660] {
+	bottom: 1.33333rem
+}
+
+.hospital-list .hospital-item .desc-box .tag-box .tag.tag-fever[data-v-12a33660] {
+	background: #ffc271
+}
+
+.popup-feedback[data-v-12a33660] {
+	width: 2.66667rem
+}
+
+.popup-feedback.scroll[data-v-12a33660] {
+	opacity: 1;
+	transition: opacity .5s ease-out
+}
+
+.popup-feedback.scroll.faded[data-v-12a33660] {
+	opacity: .4
+}
+
+.alert-wrap[data-v-12a33660] {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	z-index: 99999999;
+	background: rgba(65, 65, 65, .5);
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center
+}
+
+.alert-wrap .alert[data-v-12a33660] {
+	text-align: center;
+	background: #fcfdfe;
+	border-radius: .16rem;
+	background: #fff;
+	font-size: .42667rem;
+	color: #2a2a2a;
+	width: 9.14667rem;
+	position: relative
+}
+
+.alert-wrap .alert .close[data-v-12a33660] {
+	width: .4rem;
+	height: .4rem;
+	position: absolute;
+	top: .4rem;
+	right: .4rem
+}
+
+.alert-wrap .alert .title[data-v-12a33660] {
+	font-size: .50667rem;
+	color: #2a2a2a;
+	font-weight: 700;
+	margin: .48rem auto .74667rem auto
+}
+
+.alert-wrap .alert .content[data-v-12a33660] {
+	margin: 0 .88rem 1.22667rem .88rem;
+	text-align: left
+}
+
+.alert-wrap .alert .btn[data-v-12a33660] {
+	width: 4.93333rem;
+	height: 1.2rem;
+	background: #0074ff;
+	border-radius: .10667rem;
+	border-radius: 4px;
+	font-size: .42667rem;
+	color: #fff;
+	line-height: 1.2rem;
+	margin: 0 auto .8rem auto
+}
+
+.search-wrapper.fixed[data-v-12a33660] {
+	z-index: 999
+}
+
+.empty-wrapper[data-v-12a33660] {
+	top: 6rem
+}
+
+.more-tools[data-v-12a33660] {
+	position: fixed;
+	right: 50%;
+	bottom: 2.13333rem;
+	transform: translate3d(calc(50% - 3.94667rem), 0, 0);
+	width: 1.73333rem;
+	height: 3.86667rem;
+	opacity: 1;
+	transition: opacity .5s ease-out
+}
+
+.more-tools.more-tools-fade[data-v-12a33660] {
+	opacity: .3
+}
+
+.more-tools img[data-v-12a33660] {
+	width: 1.73333rem;
+	height: 1.73333rem;
+	display: block
+}
+
+.address-select[data-v-12a33660] {
+	width: 100%;
+	height: 1.33333rem;
+	line-height: 1.33333rem;
+	padding: 0 .53333rem;
+	font-size: .42667rem;
+	color: #333;
+	background: #f9f9f9;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+}
+
+.address-select p[data-v-12a33660] {
+	height: 100%;
+	max-width: calc(100% - .42667rem)
+}
+
+.address-select .arrow-down[data-v-12a33660],
+.address-select .arrow-up[data-v-12a33660] {
+	position: relative;
+	padding: 0 0 0 .53333rem;
+	font-size: .37333rem;
+	color: #4875f6;
+	white-space: nowrap
+}
+
+.address-select .arrow-down[data-v-12a33660]:before,
+.address-select .arrow-up[data-v-12a33660]:before {
+	content: "";
+	position: absolute;
+	left: .05333rem;
+	bottom: 50%;
+	transform: translate3d(0, 50%, 0);
+	width: .42667rem;
+	height: .48rem;
+	padding-top: .05333rem;
+	background-image: url(https://static.wecity.qq.com/h5/2020-2/location-9f40c3852c6591118b1fe77e518ca9d6.png);
+	background-repeat: no-repeat;
+	background-size: .42667rem .48rem;
+	display: inline-block
+}
+
+.address-select .arrow-down[data-v-12a33660]:after,
+.address-select .arrow-up[data-v-12a33660]:after {
+	content: "";
+	width: .32rem;
+	height: .26667rem;
+	margin-left: .10667rem;
+	background-image: url(https://static.wecity.qq.com/h5/2020-2/arrow-down-463c0c9c668142a993be0082176d8879.png);
+	background-repeat: no-repeat;
+	background-size: .32rem .26667rem;
+	display: inline-block
+}
+
+.address-select .arrow-up[data-v-12a33660]:after {
+	transform: scaleY(-1)
+}
+
+.float-toolbtn-box[data-v-12a33660] {
+	min-height: 0
+}

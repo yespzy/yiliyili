@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding:0;
+	margin:0;
+}
+.body_bg {
+	with:980px;
+	height:1200px;
+}
+/* 导航栏 */
+.title_navbar {
+	position:fixed;
+	width:100%;
+	z-index:200;
+}
+.navbar-box {
+	display:flex;
+	flex-flow:row;
+	align-items:center;		/*垂直居中*/
+    justify-content: space-around;
+}
+.navbar-header {
+	display:flex;
+	flex-flow:row;
+	align-items:center;
+}
+.navbar-header img {
+	width:auto;
+	height:50px;
+}
+/* 页头 */
+.header {
+	background:#FFF;
+	margin-top:50px;
+	padding-left:5%;
+	padding-right:5%;
+	border:#FFF 1px solid;
+}
+
+.logo{
+	
+}
+/* light */
+.light {
+	height:100px;
+	background:#FFF;
+	padding-left:5%;
+	padding-right:5%;
+	display:flex;
+	flex-flow:row;
+	align-items:center;		/*垂直居中*/
+    justify-content: space-around;
+	border-TOP:#E7E7E7 3px solid;
+	border-bottom:#E7E7E7 3px solid;
+}
+.box1 {
+	width:50px;
+	height:50px;
+	background:#F0F;
+}
+.box2 {
+	width:50px;
+	height:50px;
+	background:#0FF;
+}
+.box3 {
+	width:50px;
+	height:50px;
+	background:#FF0;
+}
+.box4 {
+	width:50px;
+	height:50px;
+	background:#00F;
+}
+.box5 {
+	width:50px;
+	height:50px;
+	background:#0F0;
+}
+.box6 {
+	width:50px;
+	height:50px;
+	background:#F00;
+}
+.box7 {
+	width:50px;
+	height:50px;
+	background:#333;
+}
+/* 页体 */
+.bodyer {
+	background:#FFF;
+	height:500px; 
+	margin-bottom:50px;
+	padding-left:5%;
+	padding-right:5%;
+	border:#FFF 1px solid;
+}
+.box_login {
+	width:70%;
+	height:60%;
+	margin:10% 15%;
+	border:#000 1px solid;
+}
+@media all and (max-width:992px){
+	.header, .light,.bodyer {
+		width:940px;
+	}
+}
+@media all and (max-width:767px){
+	.box_login {
+		height:80%;
+		margin:5% 15%;
+	}
+}
+.box_login .form-horizontal {
+	margin:50px;
+}
+.btn_link {
+	display:flex;
+	align-items:center;		/*垂直居中*/
+    justify-content: space-around;
+	
+}
+.btn_login {
+	width:100%;
+}
+/* 页脚 */
+.footer {
+	background:#FFF;
+	width:1160px;
+	height:170px;
+	margin:auto auto;
+	padding:25px 25px;
+}
+.footer-logo {
+	width:142px;
+	height:112px;
+	float:left;
+	padding:0px 15px;
+	border-right:1px #0089bc solid;
+}
+.footer-logo img {
+	width:112px;
+	height:112px;
+}
+.footer-blhx {
+	width:250px;
+	height:112px;
+	float:left;
+	padding:0px 15px;
+}
+.footer-right {
+	float:right;
+}
+.footer-right p {
+	font-size: 12px;
+}
+.footer-right p a {
+	margin: 0 10px;
+}
+.footer-right p span {
+	margin: 0 10px;
+}

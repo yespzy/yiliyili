@@ -1,0 +1,12 @@
+#map {
+	height: 100vh
+}
+
+.poiresultmaker {
+	text-align: center;
+	vertical-align: middle;
+	font-weight: 700;
+	color: #fff;
+	margin: 0;
+	padding: 0
+}
